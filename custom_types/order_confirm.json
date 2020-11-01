@@ -1,0 +1,25 @@
+{
+  "Main" : {
+    "title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Title",
+        "placeholder" : "Please input your title here."
+      }
+    },
+    "description1" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Description1",
+        "placeholder" : "Please input description here."
+      }
+    },
+    "description2" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Description2",
+        "placeholder" : "Please input description here."
+      }
+    }
+  }
+}

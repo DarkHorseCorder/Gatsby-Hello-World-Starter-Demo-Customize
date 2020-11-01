@@ -1,0 +1,102 @@
+{
+  "Main" : {
+    "intro_content" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "img_intro_hero" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "Intro Hero Image"
+            }
+          },
+          "intro_title" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1",
+              "label" : "Intro Title"
+            }
+          },
+          "intro_subtitle" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1",
+              "label" : "Intro Subtitle"
+            }
+          },
+          "intro_desc_lists" : {
+            "type" : "StructuredText",
+            "config" : {
+              "multi" : "paragraph, list-item, o-list-item",
+              "label" : "Intro Description",
+              "placeholder" : "Please input descriptions"
+            }
+          },
+          "start_price" : {
+            "type" : "Number",
+            "config" : {
+              "label" : "starting price",
+              "placeholder" : "Please input starting monthly price"
+            }
+          }
+        }
+      }
+    },
+    "section" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "section_hero" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "Section hero"
+            }
+          },
+          "main_title" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1",
+              "label" : "Main title",
+              "placeholder" : "Please input title"
+            }
+          },
+          "title_desc" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "Title description",
+              "placeholder" : "Please input title description"
+            }
+          },
+          "sub_title" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading2",
+              "label" : "Sub title",
+              "placeholder" : "Please input subtitle"
+            }
+          },
+          "section_desc" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "Section description",
+              "placeholder" : "Please input section description"
+            }
+          },
+          "section_content" : {
+            "type" : "StructuredText",
+            "config" : {
+              "multi" : "paragraph, list-item",
+              "label" : "Section Content",
+              "placeholder" : "Please fill section content"
+            }
+          }
+        },
+        "label" : "Section"
+      }
+    }
+  }
+}
